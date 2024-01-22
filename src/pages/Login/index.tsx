@@ -80,7 +80,7 @@ export default function Login() {
           </Button>
           <Link className="link-home d-flex" to="/">
             <FaHome fontSize={20} />
-            <h6>Home</h6>
+            <h6 >Home</h6>
           </Link>
         </form>
       )}

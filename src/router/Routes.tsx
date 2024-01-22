@@ -11,8 +11,7 @@ const Router: React.FC<IApplicationProps> = () => {
   // Use as props conforme necessário
 
   return (
-    // <BrowserRouter basename="/virtusconnect">
-    <BrowserRouter>
+     <BrowserRouter basename="/virtusconnect">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<Login />} />

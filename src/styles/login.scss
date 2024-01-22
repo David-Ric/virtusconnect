@@ -3,6 +3,7 @@
     width: 100%;
     min-height: 100vh;
     background-color: #141313 ;
+    display: flex;
 .form-login{
     width: 400px;
     min-height: 100vh;
@@ -32,6 +33,7 @@
     h5{
         color: #fff;
         margin-bottom: 10px !important;
+        font-size: 12px;
     }
     input{
         width: 100%;
@@ -71,4 +73,16 @@
     color: #fff;
     margin-top: 30px;
     letter-spacing: 3px;
+}
+.banner-login{
+    width:70%;
+    height: 100vh;
+    margin: auto;
+    margin-left: 0px !important;
+    background-image: url('../assets/banner-login-min.png');
+    background-size: 100%;  
+    background-repeat: no-repeat;
+    @media (max-width: 800px) {
+     display: none;
+    }
 }

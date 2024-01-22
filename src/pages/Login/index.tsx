@@ -14,6 +14,7 @@ export default function Login() {
 
   return (
     <div className="container-login">
+      <div className="banner-login"></div>
       {cadastrar ? (
         // Formulário de Registro
         <form action="" className="form-login">

@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export default function Clientes() {
   const numeroWhatsApp = "+558592872397";

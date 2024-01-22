@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import videoSource from "../../assets/video-virtus.mp4";
 import "../../styles/containervideo.scss";
 

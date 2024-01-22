@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import Loading_Principal from "../../components/Loading-Prinicipal";
 import "../../styles/global.scss";
 import Navbar from "../../components/Navbar";

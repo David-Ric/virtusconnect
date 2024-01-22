@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../../styles/login.scss";
 import LogoLogin from "../../assets/logo-virtus.png";
 import Button from "react-bootstrap/Button";
@@ -35,7 +35,12 @@ export default function Login() {
             cadastrar
           </button>
 
-          <Button type="button" className="btn-log" variant="outline-primary" onClick={toggleCadastro}>
+          <Button
+            type="button"
+            className="btn-log"
+            variant="outline-primary"
+            onClick={toggleCadastro}
+          >
             Já tenho uma conta
           </Button>
           <Link className="link-home d-flex" to="/">
@@ -60,7 +65,12 @@ export default function Login() {
             entrar
           </button>
 
-          <Button type="button" className="btn-log" variant="outline-primary" onClick={toggleCadastro}>
+          <Button
+            type="button"
+            className="btn-log"
+            variant="outline-primary"
+            onClick={toggleCadastro}
+          >
             Cadastre-se
           </Button>
           <Link className="link-home d-flex" to="/">

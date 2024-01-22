@@ -1,4 +1,4 @@
-import React from "react";
+
 import "../../styles/digitalizamos.scss";
 import Logo from '../../assets/log-virtus-loading.png'
 

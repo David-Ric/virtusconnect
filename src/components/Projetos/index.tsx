@@ -1,4 +1,4 @@
-import React from "react";
+
 import "../../styles/projetos.scss";
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -15,13 +15,17 @@ export default function Projetos() {
       </div>
 
       <div className="carrousel-cliente cliente-desck ">
-        <Carousel>
-          <Carousel.Item className="d-flex justify-content-between">
+      <Carousel>
+          <Carousel.Item>
             <img className="d-block imgCsa" src={Logo1} alt="Projeto 1" />
+          </Carousel.Item>
+          <Carousel.Item>
             <img className="d-block imgCsa" src={Logo2} alt="Projeto 2" />
           </Carousel.Item>
-          <Carousel.Item className="d-flex justify-content-between">
+          <Carousel.Item>
             <img className="d-block imgCsa" src={Logo3} alt="Projeto 3" />
+          </Carousel.Item>
+          <Carousel.Item>
             <img className="d-block imgCsa" src={Logo4} alt="Projeto 4" />
           </Carousel.Item>
         </Carousel>

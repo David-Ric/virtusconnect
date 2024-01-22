@@ -1,4 +1,4 @@
-import React from "react";
+
 import "../../styles/clientes.scss";
 import Logo1 from '../../assets/frost.png'
 import Logo2 from '../../assets/ibel.png'

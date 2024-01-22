@@ -14,13 +14,11 @@
   position: absolute;
   .div-logo {
     width: 200px;
-    height: 200px;
-    background-image: url('../../assets/log-virtus-loading.png');
-    background-size: 100%;  
-    background-repeat: no-repeat;
+margin-bottom: 30px;
+    
     @media (max-width: 800px) {
       width: 150px;
-      height: 150px;
+  
     }
   }
   .text-span{

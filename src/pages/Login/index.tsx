@@ -32,6 +32,10 @@ export default function Login() {
             <h5>Senha:</h5>
             <input id="password" type="password" />
           </div>
+          <div className="div-input-login">
+            <h5>Confirmação de senha:</h5>
+            <input id="password" type="password" />
+          </div>
           <button type="submit" className="btn-login">
             cadastrar
           </button>

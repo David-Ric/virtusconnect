@@ -33,3 +33,32 @@
    }
 
 }
+
+.carroussel-ind{
+
+   margin-top: 70px  !important;
+    padding-bottom: 40px;
+    img{
+        width: 300px !important;
+    }
+
+.div-desck{
+    .divcaroussel{
+        display: flex !important;
+        align-items: center;
+        justify-content: space-between;
+       
+    }
+    @media (max-width: 800px) {
+        display: none;
+       }
+
+}
+.div-mobile{
+    display: none;
+    @media (max-width: 800px) {
+        display: block;
+       }
+
+}
+}

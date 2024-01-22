@@ -9,11 +9,13 @@
     @media (max-width: 800px) {
         margin-top: 50px;
         padding:70px 10px;
-        height: 500px;
+        height: 800px;
         justify-content: center;
         align-items: center;
         text-align: center;
         background-image: url('../assets/banner-digital-mobile-min.png'); 
+        background-size: 200%;  
+    background-repeat: no-repeat;
     }
 
     .logo-digitalizamos{

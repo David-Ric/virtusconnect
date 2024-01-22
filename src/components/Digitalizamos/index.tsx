@@ -1,6 +1,7 @@
 
 import "../../styles/digitalizamos.scss";
 import Logo from '../../assets/log-virtus-loading.png'
+import CarrIndustria from "../carroussel-industria";
 
 export default function digitalizamos() {
 
@@ -11,6 +12,7 @@ export default function digitalizamos() {
       <h1>Digitalizamos processos e dados</h1>
       <h2>Estratégia e tecnologia para melhores decisões
 </h2>
+<CarrIndustria/>
     </div>
   );
 }

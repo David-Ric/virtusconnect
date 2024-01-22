@@ -15,7 +15,7 @@ import "./styles/global.scss";
 
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker
-    .register("/virtusconnect/service-worker.js")
+    .register("/virtusconnect/sw.js")
     .then((registration) => {
       console.log("Service Worker registrado com sucesso:", registration);
     })

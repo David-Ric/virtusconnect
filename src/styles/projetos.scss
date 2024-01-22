@@ -1,0 +1,35 @@
+
+.carrousel-cliente{
+    width: 100% !important;
+    justify-content:center;
+    align-items: center;
+   
+    
+}
+.imgCsa{
+    width: 30% !important;
+    margin: auto;
+    @media (max-width: 800px) {
+        width: 80% !important;
+    }
+}
+.carroussel{
+    background-image: url('../assets/banner-digital-min.png');
+    background-size: 100%;  
+    background-repeat: no-repeat;
+    min-height: auto;
+    padding-bottom: 40px;
+}
+.cliente-desck{
+    @media (max-width: 800px) {
+        display: none;
+    }
+    
+}
+.cliente-mobile{
+   display: none;
+   @media (max-width: 800px) {
+    display: block;
+   }
+
+}

@@ -1,0 +1,25 @@
+footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 10px 60px;
+    background-color: #000;
+    color: #fff; 
+    text-align: center !important; 
+    h1{
+        font-size: 14px !important;
+    }
+    @media (max-width: 800px) {
+        position: fixed;
+        h1{
+           
+            font-size: 10px !important;
+            line-height: 1.6;
+        }
+
+    }
+}

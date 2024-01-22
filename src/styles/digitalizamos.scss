@@ -1,0 +1,44 @@
+.banner-digital{
+   color:#fff;
+    width: 100%;
+    height: 900px;
+    padding:70px 100px;
+    background-image: url('../assets/banner-digital-min.png');
+    background-size: 100%;  
+    background-repeat: no-repeat;
+    @media (max-width: 800px) {
+        margin-top: 50px;
+        padding:70px 10px;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url('../assets/banner-digital-mobile-min.png'); 
+    }
+
+    .logo-digitalizamos{
+        width: 200px;
+        margin-bottom: 60px !important;
+        @media (max-width: 800px) {
+            margin-bottom: 30px !important;
+            width: 100px;
+        }
+    }
+    h1{
+        font-size: 3rem !important;
+        margin-bottom: 30px !important;
+        @media (max-width: 800px) {
+            font-size: 1.2rem !important;
+          //  margin-bottom: 110px !important;
+        }
+    }
+    h2{
+        font-size: 1.5rem !important;
+        margin-bottom: 30px !important;
+        @media (max-width: 800px) {
+            font-size: 0.8rem !important;
+         //   color:#F6C700;
+        }
+    }
+
+}

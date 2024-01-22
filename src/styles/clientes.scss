@@ -1,0 +1,16 @@
+.container-cli{
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 0px 70px;
+    @media (max-width: 800px) {
+        padding: 0px 10px;
+    }
+    img{
+        width: 150px;
+        @media (max-width: 800px) {
+            width: 70px; 
+        }
+    }
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+.container-load {
+  width: 100% !important;
+  height: 100vh !important;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  top: 0;
+  position: absolute;
+  .div-logo {
+    width: 200px;
+    height: 200px;
+    background-image: url('../../assets/log-virtus-loading.png');
+    background-size: 100%;  
+    background-repeat: no-repeat;
+    @media (max-width: 800px) {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  .text-span{
+    margin-top: 20px;
+   }
+   z-index: 2000;
+}
+

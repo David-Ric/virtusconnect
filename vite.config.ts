@@ -7,7 +7,7 @@
 //   plugins: [react()],
 //   base:"/virtusconnect",
 // });
-// vite.config.js
+
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
@@ -40,10 +40,7 @@ export default defineConfig({
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/david-ric\.github\.io\/virtusconnect\//,
-            handler: 'NetworkFirst',
-            options: {
-              networkTimeoutSeconds: 5,
-            },
+            handler: 'NetworkOnly',
           },
         ],
       },
@@ -51,3 +48,4 @@ export default defineConfig({
   ],
   base: '/virtusconnect/',
 });
+

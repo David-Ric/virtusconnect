@@ -6503,6 +6503,7 @@ div > div > div.modal-header {
   bottom: 40px; 
   right: 30px;  /* Adicionando para fixar à direita */
   cursor: pointer;  /* Adicionando cursor pointer para indicar que é clicável */
+  z-index: 1200;
   @media (max-width: 800px) {
     right: 10px; 
     bottom: 60px; 

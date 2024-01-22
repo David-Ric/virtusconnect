@@ -19,7 +19,7 @@ export default defineConfig({
       manifest: {
         name: 'VirtusConnect',
         short_name: 'VirtusConnect',
-        start_url: '/virtusconnect/',
+        start_url: 'https://david-ric.github.io/virtusconnect/',
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#000000',

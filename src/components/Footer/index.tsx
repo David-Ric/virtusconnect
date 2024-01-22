@@ -8,7 +8,7 @@ export default function Footer() {
 
   return (
     <footer>
-      <h1>Direitos Reservados © {obterAnoAtual()} Vurtis Connect. Todos os direitos são reservados.</h1>
+      <h1>Direitos Reservados © {obterAnoAtual()} Virtus Connect. Todos os direitos são reservados.</h1>
     </footer>
   );
 }
